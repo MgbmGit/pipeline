@@ -14,11 +14,11 @@ pipeline {
         }
 		stage('Results') {
             steps {
-                echo 'Running test result'
+                eco 'Running test result'
             }
         }
 		stage('Package') {
-            steps 
+            steps { 
                 echo 'Running package steps'
             }
         }
