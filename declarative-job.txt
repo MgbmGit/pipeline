@@ -14,7 +14,7 @@ pipeline {
         }
 		stage('Results') {
             steps {
-                eco 'Running test result'
+                echo 'Running test result'
             }
         }
 		stage('Package') {
