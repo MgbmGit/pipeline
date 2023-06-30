@@ -1,0 +1,12 @@
+node{
+    stage('Preparation') {
+		echo "I am preparing a scripted job" 
+    }
+    stage('Build') {
+        echo "Running build job"
+    }
+    stage('Results') {
+        echo "Running test result"
+    }
+}
+
