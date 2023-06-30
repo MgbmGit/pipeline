@@ -18,8 +18,8 @@ pipeline {
             }
         }
 		stage('Package') {
-            steps 
-                echo 'Running package steps'
+            steps {
+                ech 'Running package steps'
             }
         }
     }
