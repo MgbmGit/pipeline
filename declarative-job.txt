@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Preparation') {
+            steps {
+                echo 'I am preparing a scripted job'
+            }
+        }
+		stage('Build') {
+            steps {
+                echo "Running build job"
+            }
+        }
+		stage('Results') {
+            steps {
+                echo 'Running test result'
+            }
+        }
+		stage('Package') {
+            steps {
+                echo 'Running package steps'
+            }
+        }
+    }
+}
